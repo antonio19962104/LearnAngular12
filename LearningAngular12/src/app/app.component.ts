@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LearningAngular12';
+  author = 'José Antonio Murillo Garcia'
+  current_year = new Date().getFullYear();
+  modules = ['Encuestas', 'Plantillas', 'Base de Datos', 'Reportes', 'Usuarios']
 }
