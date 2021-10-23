@@ -1,0 +1,30 @@
+<header>
+  <nav>
+    <ul>
+      <li *ngFor="let item of modules">
+        {{ item.name }}
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div id="main">
+  <div class="row">
+    <div class="col-10">
+      <header>
+        <h2>
+          Main content
+        </h2>
+      </header>
+    </div>
+    <div class="col-2">
+      <aside>
+        Lateral content
+      </aside>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Copyrights {{ current_Year }}
+</footer>
